@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | First Launceston Scouts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <label for="" class="logo"><a href="index.html"><img src="Images/logo-generator-linear-blackwhite-png.png" alt="Scouts Logo"></a></label>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="beavers.html">Beavers</a></li>
+            <li><a href="cubs.html">Cubs</a></li>
+            <li><a href="scouts.html">Scouts</a></li>
+            <li><a href="explorers.html">Explorers</a></li>
+            <li><a href="parents.html">Parents</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+            <li><a href="contact.html" class="contact">&nbsp;&nbsp;&nbsp;&nbsp;Contact&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+            <li><a href="login.html" class="login">Login</a></li>
+        </ul>
+    </div>
+
+    <section class="welcome">
+        <img src="Images/Group-Scarf-scaled-removebg-preview.png" alt="Welcome Image" class="welcome-img">
+        <div class="welcome-text">
+            <h1>Welcome to <b>First Launceston Scouts</b></h1>
+            <p><b>Part of one of the biggest youth shaped organisations in the world</b></p>
+            <p>Having first registered in March 1958, our group has gone from strength to strength and has seen many changes. <br><br>
+
+                Our group welcomes all genders and backgrounds from 6 to 60+. Our sections run a varied program of activities both indoors and outdoors: you name it, we endeavour to do it!  (see individual pages for more information). <br><br>
+
+                We believe all young people thrive when learning through adventure and fun. We aim to provide this in a safe environment, allowing every person the chance to excel in their own way. All our adult volunteers give their time freely and undergo ongoing training to ensure your young person has a fun and adventurous time whilst being as safe as possible. <br><br>
+
+                <b>Want to know more?</b><br><br>
+
+                Click on the links below or the contact us page and start your journey with one of the biggest youth lead organisations in the world.</p><br><br>
+        </div>
+    </section>
+
+    <section class="cards">
+        <div class="card">
+            <img src="Images/beavers-logo-white-png.png" alt="Beavers">
+            <a href="beavers.html" class="btn">About Beavers</a>
+        </div>
+        <div class="card">
+            <img src="Images/cubs-logo-white-png.png" alt="Cubs">
+            <a href="cubs.html" class="btn">About Cubs</a>
+        </div>
+        <div class="card">
+            <img src="Images/scouts-logo-white-png.png" alt="Scouts">
+            <a href="scouts.html" class="btn">About Scouts</a>
+        </div>
+        <div class="card">
+            <img src="Images/explorers-logo-white-png.png" alt="Explorers">
+            <a href="explorers.html" class="btn">About Explorers</a>
+        </div>
+    </section>
+
+    <footer>
+        © Ruben Tape 2024 / 1st Launceston Scouts
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            var ul = document.querySelector('.navbar ul');
+            ul.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

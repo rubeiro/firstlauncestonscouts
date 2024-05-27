@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer | First Launceston Scouts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <label for="" class="logo"><a href="index.html"><img src="Images/logo-generator-linear-blackwhite-png.png" alt="Scouts Logo"></a></label>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="beavers.html">Beavers</a></li>
+            <li><a href="cubs.html">Cubs</a></li>
+            <li><a href="scouts.html">Scouts</a></li>
+            <li><a href="explorers.html">Explorers</a></li>
+            <li><a href="parents.html">Parents</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+            <li><a href="contact.html" class="contact">&nbsp;&nbsp;&nbsp;&nbsp;Contact&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+            <li><a href="login.html" class="login">Login</a></li>
+        </ul>
+    </div>
+    
+    <section class="welcome">
+        <img src="Images/volunteer-bear.jpg" alt="Beavers Img" class="img">
+        <div class="welcome-text">
+            <h1>Adult volunteers</h1>
+            <h2><b>Volunteer</b></h2>
+            <p>'Scouting is a character factory.'' Not our words, but those of our lead volunteer, chief scout Bear Grylls. Are you ready to inspire a generation of young people to experience fun, friendship and real adventure?</p>
+            <p>The opportunities to volunteer with us are flexible. Think of something you'd like to do and chances are it's just what we require.</p>
+        </div>
+    </section>
+
+    <br><br>
+
+    <div class="body1">
+        <div class="text1">
+            <h2><b>Watch our video</b></h2>
+            <p>What made me? An inspirational video from Bear and our Scout Ambassadors</p><br><br>
+        </div>
+        <video width="640" height="480" src="Videos/goodforyou-video-from-bear-grylls-mp4.mp4" controls></video>
+    </div>
+
+    <div class="join-button">
+        <button><a href="https://www.onlinescoutmanager.co.uk/waiting-list/1st-launceston-waiting-list/fbc2bb65-29fa-44e6-9965-8c9e4088ec5b/apply" target="_blank">Join</a></button>
+    </div>
+
+    <footer>
+        © Ruben Tape 2024 / 1st Launceston Scouts
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            var ul = document.querySelector('.navbar ul');
+            ul.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
