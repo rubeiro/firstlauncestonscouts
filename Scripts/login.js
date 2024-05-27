@@ -10,7 +10,6 @@ document.getElementById("login-form").addEventListener("submit", function(event)
     if (usernameIN === usernameOUT && passwordIN === passwordOUT) {
         window.location.href = "construction.html";
     } else {
-        // Display an error message (optional)
         alert("Invalid username or password. Please try again.");
         window.location.href = "login.html";
     }
