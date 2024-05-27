@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login | First Launceston Scouts</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body style="background-color: #1f1f1f;">
+
+<body>
     <div class="navbar">
-        <label for="" class="logo"><a href="index.html"><img src="Images/logo-generator-linear-blackwhite-png.png" alt="Scouts Logo"></a></label>
+        <label for="" class="logo"><a href="index.html"><img src="Images/logo-generator-linear-blackwhite-png.png"
+                    alt="Scouts Logo"></a></label>
         <div class="hamburger" onclick="toggleMenu()">
             <div></div>
             <div></div>
@@ -28,7 +31,7 @@
         </ul>
     </div>
 
-    <br><br><br><br>
+    <br><br>
 
     <div class="login-container">
         <h1>Login</h1>
@@ -43,6 +46,11 @@
         © Ruben Tape 2024 / 1st Launceston Scouts
     </footer>
 
-    <script src="Scripts/login.js"></script>
+    <script>
+        function toggleMenu() {
+            var ul = document.querySelector('.navbar ul');
+            ul.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>
